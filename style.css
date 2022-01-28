@@ -1,0 +1,19 @@
+h3{
+    font-size: 30px !important ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn-warning:hover{
+    background-color:red;
+}
+
+canvas{
+    animation-name: example;
+    animation-duration: 3s ;
+    animation-iteration-count: infinite ;
+}
+@keyframes example {
+    from{box-shadow:1px 1px 20px coral;}
+    to{box-shadow:1px 1px 20px cyan;}
+}
+
